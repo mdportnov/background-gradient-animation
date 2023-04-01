@@ -9,7 +9,7 @@ fun Color.brightness(): Float {
     return (red + green + blue) / (3 * 255f)
 }
 
-fun Color.isSimilarTo(other: Color, threshold: Float = 80f): Boolean {
+fun Color.isSimilarTo(other: Color, threshold: Float = 90f): Boolean {
     val distance = sqrt(
         ((red - other.red) * (red - other.red)
                 + (green - other.green) * (green - other.green)

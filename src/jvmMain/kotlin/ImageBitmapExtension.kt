@@ -21,7 +21,7 @@ fun ImageBitmap.getTopDominantColors(count: Int = 3, brightnessThreshold: Float 
     return colorMap.entries.sortedByDescending { it.value }.take(count).map { it.key }
 }
 
-fun ImageBitmap.getTopDominantColorsDiff(count: Int = 3, brightnessThreshold: Float = 0.3f): List<Color> {
+fun ImageBitmap.getTopDominantColorsDiff(count: Int = 3, brightnessThreshold: Float = 0.4f): List<Color> {
     val bufferedImage = this.toBufferedImage()
     val colorMap = mutableMapOf<Color, Int>()
 

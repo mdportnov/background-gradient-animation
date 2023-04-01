@@ -25,7 +25,6 @@ kotlin {
             dependencies {
                 implementation(compose.desktop.currentOs)
                 implementation("org.apache.commons:commons-imaging:1.0-alpha3")
-                implementation("androidx.compose.animation:animation:1.4.0")
             }
         }
     }
