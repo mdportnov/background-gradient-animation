@@ -1,3 +1,5 @@
+package utils
+
 import androidx.compose.ui.graphics.ImageBitmap
 import androidx.compose.ui.graphics.asAwtImage
 import java.awt.Color

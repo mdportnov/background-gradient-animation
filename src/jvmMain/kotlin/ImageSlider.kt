@@ -15,6 +15,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.ImageBitmap
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.unit.dp
+import utils.loadImage
 
 @Composable
 fun Slider(imageUrls: List<String>, onImageClick: ((ImageBitmap) -> Unit) = {}) {
